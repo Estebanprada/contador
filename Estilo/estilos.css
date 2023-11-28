@@ -1,0 +1,59 @@
+/* Estilos generales para el cuerpo de la pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b9d6f3; /* Color de fondo */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgb(119, 194, 224);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el titulo del contador */
+h1 {
+    text-align: center;
+    color: #0c0c0c; 
+}
+
+/* Estilo para la fila que contiene los elementos del contador */
+.row {
+    text-align: center;
+}
+
+/* Estilo para el numero del contador */
+h2 {
+    color: #080808; /* Color verde Bootstrap */
+}
+
+/* Estilo para los botones de incremento, decremento y resetear */
+.btn {
+    margin-top: 10px;
+}
+
+/* Estilo para el botpn de incremento */
+#incrementar {
+    background-color: #28a745; /* Color verde Bootstrap */
+    color: #fff; /* Color del texto blanco */
+}
+
+/* Estilo para el boton de decremento */
+#decremento {
+    background-color: #dc3545; /* Color rojo Bootstrap */
+    color: #fff; /* Color del texto blanco */
+}
+
+/* Estilo para el boton de resetear */
+.btn-outline-warning {
+    background-color: rgb(248, 248, 10);
+    color: #0a0a0a; /* Color amarillo Bootstrap */
+}
+
+/* Cambiar estilos de los botones al pasar el raton sobre ellos */
+.btn:hover {
+    opacity: 0.8;
+}
